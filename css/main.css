@@ -15,6 +15,10 @@ ul {
 a {
     text-decoration: none;
 }
+a:active, a:visited, a:link {
+    color: #F8F8F8;
+}
+
 
 .container {
     max-width: 1140px;
