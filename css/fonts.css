@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "KumbhSans";
+    src:
+      url("../fonts/KumbhSans-Regular.woff2") format("woff2"),
+      url("../fonts/KumbhSans-Regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: "RubikOne";
+    src:
+      url("../fonts/RubikOne-Regular.woff2") format("woff2"),
+      url("../fonts/RubikOne-Regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+  }
