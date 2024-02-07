@@ -39,6 +39,9 @@
   .masters-headers { 
     font-size: 12rem;
   }
+  #works-more__button {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 997px) { 
@@ -188,6 +191,12 @@
     .welcome__text{
         font-size: 180px;
     }
+    #works-more__button {
+        font-size: 3rem;
+        line-height: 1.9rem;
+        bottom: -20px;
+      }
+
     #first {
         width: 190px;
         height: 230px;
@@ -484,6 +493,11 @@ v
       }
       .works-headers {
           font-size: 3rem;
+      }
+      #works-more__button {
+        font-size: 2rem;
+        line-height: 1.9rem;
+        bottom: -20px;
       }
     }
 

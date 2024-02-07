@@ -235,6 +235,7 @@ main {
     /* grid-template-rows: repeat(3, auto); */
     gap: 20px;
     /* justify-content: center; */
+    position: relative;
 }
 .works-container > img {
     width: 100%;
@@ -262,18 +263,21 @@ main {
     transition: all .5s;
 }
 
-.works-more__button {
+#works-more__button {
     color: #434343;
-    font-size: 159px;
+    font-size: 6rem;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 0%;
-    display: block;
-    position: absolute;
-    bottom:80px;
-    right: 50%;
-    margin: 0;
-    padding: 0;
+    line-height: 70px;
+    background-color: #000000;
+
+color: #434343;
+
+
+
 }
 
 /* MASTERS */
