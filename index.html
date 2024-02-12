@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
@@ -11,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-            <div class="header-bar">
+            <div class="header-bar wow animate__animated animate__fadeInDown">
                     <img src="img/icon/Logo.png" alt="" class="header__logo">
                     <nav>
                         <ul class="header-menu">
@@ -37,15 +38,15 @@
             </ul>
         </div>
 
-        <div class="header-big__logo">
+        <div class="header-big__logo wow animate__animated animate__fadeInDown" data-wow-delay="1s">
             <span class="header-big__item seven">7</span>
             <span class="header-big__item word">Lines</span>
         </div>
 
         <div class="header-scroll">
-            <img src="img/icon/down_arrow.png" alt=arrow" class="header-scroll__item">
-            <img src="img/icon/down_arrow.png" alt="arrow" class="header-scroll__item">
-            <img src="img/icon/down_arrow.png" alt="arrow" class="header-scroll__item">
+            <img src="img/icon/down_arrow.png" alt=arrow" class="header-scroll__item wow animate__animated animate__bounceIn" data-wow-delay="1.3s">
+            <img src="img/icon/down_arrow.png" alt="arrow" class="header-scroll__item wow animate__animated animate__bounceIn" data-wow-delay="1.6s">
+            <img src="img/icon/down_arrow.png" alt="arrow" class="header-scroll__item wow animate__animated animate__bounceIn" data-wow-delay="1.9s">
         </div>
     </header>
     <main>
@@ -60,8 +61,8 @@
                         <img src="img/welcome_slide/image 3.png" alt="img2" class="img_item" id="third">
                     </div>
                 </div>
-                <div class="welcome-text-box">
-                    <span class="welcome__text">this is <br>
+                <div class="welcome-text-box animate__animated animate__flipInX">
+                    <span class="welcome__text wow animate__animated animate__fadeIn" >this is <br>
                         &nbsp&nbspreal art</span>
                 </div>
             </div>
@@ -143,6 +144,8 @@
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.682712729014!2d34.5575953937093!3d49.584873719090616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f7f7ee33ed1%3A0x50087fbcdd45949d!2z0KLQsNGC0YMg0J_QvtC70YLQsNCy0LAgfCA3TElORVMgVEFUVE9PIFNUVURJTw!5e0!3m2!1sru!2sua!4v1706711152352!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
+    <script src="js/simpleParallax.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
